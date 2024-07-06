@@ -1,0 +1,136 @@
+* {
+    margin:0;
+    padding:0;
+}
+
+body {
+    background-color:#EEE;
+    font-family: "Roboto", sans-serif;
+}
+
+.container {
+    max-width: 1000px;
+    background-color:#E4F9F5;
+    margin: 0 auto;
+    padding: 20px;
+    
+
+}
+    /* header starts here */
+
+header {
+
+}
+
+.profile-image {
+    height: 120px;
+    width: 100px;
+    border: 3px white solid;
+    border-radius:50%;
+    float: left;
+}
+
+.header-bio {
+    float:left;
+    padding:30px;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    color:#11999e;    
+}
+
+.header-contact {
+    float: right;
+    padding: 30px;
+    font-weight: bold;
+}
+
+.header-contact a {
+    color:teal;
+    text-decoration:none;
+}
+
+.header-contact a:hover {
+    color:tomato;
+    text-decoration:underline;
+}
+
+/* clearing div */
+.div-clear {
+    clear:both;
+}
+
+hr {
+    border:3px black solid;
+    width:100%;
+    margin:20px auto;
+    border-bottom:none;
+    
+}
+
+ /* header ends here */
+
+/* main strt here */
+
+/* personal-section start */
+
+#personal-section {
+    margin-bottom: 30px;
+}
+
+.content {
+    margin-bottom: 30px;
+}
+
+.left-div {
+    width:30%;
+    float:left;
+
+}
+
+.right-div {
+    width:70%;
+    float:left;
+}
+
+.common-hr {
+    border:1px black solid;
+    border-bottom:none;
+    width:100%;
+    margin:20 auto;
+}
+/* personal-section end */
+
+/* education section start */
+
+.edu-template-left {
+    float:left;
+    width:45%;
+}
+
+.edu-template-right {
+    float:right;
+    width:45%;
+}
+/* main end here */
+
+
+/* footer start */
+
+.bottom-container {
+    background-color:black;
+    text-align: center;
+    padding: 10px;
+}
+
+.bottom-container a {
+    color:white;
+    text-decoration:none;
+    margin:20px;
+}
+
+.bottom-container p {
+    color:white;
+    margin-top:20px;
+}
+
